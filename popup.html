@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Privacy Extension</title>
+    <link rel="stylesheet" href="popup.css">
+    <script src="background.js"></script>
+    <script src="popup.js"></script>
+    <script src="manifest.json"></script>
+</head>
+<body>
+    <h1>Privacy Extension</h1>
+    <div>
+        <label>
+            <input type="checkbox" id="blockTrackers" />
+            Block Trackers
+        </label>
+    </div>
+    <div>
+        <label>
+            <input type="checkbox" id="manageCookies" />
+            Manage Cookies
+        </label>
+    </div>
+    <div>
+        <label>
+            <input type="checkbox" id="encryptData" />
+            Encrypt Data
+        </label>
+    </div>
+    <button id="applyChanges">Apply Changes</button>
+    <script src="popup.js"></script>
+</body>
+</html>

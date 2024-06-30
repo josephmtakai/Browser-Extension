@@ -1,0 +1,36 @@
+{
+    "manifest_version": 3,
+    "name": "Privacy Extension",
+    "version": "1.0",
+    "description": "Enhances privacy by blocking trackers, managing cookies, and encrypting browser data.",
+    "icons": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+      }
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "permissions": [
+      "cookies",
+      "webRequest",
+      "webRequestBlocking",
+      "storage",
+      "activeTab",
+      "http://*/",
+      "https://*/"
+    ],
+    "host_permissions": [
+      "http://*/",
+      "https://*/"
+    ]
+  }
+  

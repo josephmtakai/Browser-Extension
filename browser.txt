@@ -1,0 +1,10 @@
+privacy-extension/
+├── icons/
+│   ├── icon16.png
+│   ├── icon48.png
+│   └── icon128.png
+├── popup.html
+├── popup.css
+├── popup.js
+├── background.js
+└── manifest.json
